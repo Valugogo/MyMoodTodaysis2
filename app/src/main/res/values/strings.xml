@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">MyMoodTodayis</string>
+    <string name="Feliz">Felizbutton</string>
+    <string name="Triste">Tristebutton</string>
+    <string name="Enojado">Enojadobutton</string>
+    <string name="Titulo">¿Cómo te sientes hoy?</string>
+    <string name="Texto">Escoge la emoción que te represente en este momento del día</string>
+    <string name="regresarbutton">Regresar</string>
+    <string name="volver">volverbutton</string>
+    <string name="home">Homebutton</string>
+    <string name="Home">Homebutton</string>
+    <string name="Buttonregresar">buttonregresar</string>
+</resources>

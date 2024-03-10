@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#523273"
+    tools:context=".MainAlegre">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/tarjeta"
+        android:layout_width="374dp"
+        android:layout_height="630dp"
+        android:contentDescription="Cardvista"
+        android:fadingEdge="vertical"
+        android:foregroundGravity="center"
+        app:cardBackgroundColor="#9EF0AA"
+        app:cardCornerRadius="50dp"
+        app:cardElevation="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/Texto"
+                android:layout_width="291dp"
+                android:layout_height="342dp"
+                android:layout_marginTop="128dp"
+                android:contentDescription="textos"
+                android:text="Me alegra saber que el dia de hoy te encuentras feliz y dispuesto a tener un gran dia."
+                android:textAlignment="center"
+                android:textColor="#523273"
+                android:textColorHint="#2D005A"
+                android:textDirection="firstStrong"
+                android:textSize="34sp"
+                android:textStyle="bold|italic"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.506"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/NombreFeli"
+                android:layout_width="136dp"
+                android:layout_height="47dp"
+                android:layout_marginTop="16dp"
+                android:text="TextView"
+                android:textSize="34sp"
+                android:textStyle="bold|italic"
+                app:layout_constraintBottom_toTopOf="@+id/textNombre"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <Button
+                android:id="@+id/Regresarbutton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/regresarbutton"
+                android:text="Home"
+                android:textColorHighlight="#9EF0AA"
+                android:textColorLink="#9EF0AA"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.955" />
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="116dp"
+                android:layout_height="115dp"
+                android:layout_marginBottom="76dp"
+                android:contentDescription="ImgSonrisa"
+                android:scaleType="fitCenter"
+                app:layout_constraintBottom_toTopOf="@+id/Regresarbutton"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:srcCompat="@mipmap/snrisa" />
+
+            <TextView
+                android:id="@+id/textNombre"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="¡Estas feliz!"
+                android:textAlignment="center"
+                android:textColor="@color/Purple"
+                android:textSize="34sp"
+                android:textStyle="bold|italic"
+                app:layout_constraintBottom_toTopOf="@+id/Texto"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="1.0" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </androidx.cardview.widget.CardView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
