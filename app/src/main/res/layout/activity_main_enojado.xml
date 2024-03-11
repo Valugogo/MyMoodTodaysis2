@@ -44,7 +44,7 @@
                 android:textColor="#523273"
                 android:textSize="34sp"
                 android:textStyle="bold|italic"
-                android:text="Hola, lamento que no haya sido un buen dia. Canaliza tu ira y no tomes desiciones enojado"
+                android:text="Hola, lamento que no haya sido un buen dia. Canaliza tu ira y no tomes decisiones enojado"
                 app:layout_constraintBottom_toTopOf="@+id/imageView"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintHorizontal_bias="0.492"
